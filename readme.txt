@@ -1,4 +1,5 @@
 An AVR PRESENT cipher implementation for ATtiny45 that will be extended to ATmega.
+Important! Implementation uses FLASH memory lookups. Try to extend/compare with SRAM lookups.
 Instead of the original PRESENT Sboxes it uses new 4-bit Sboxes with better transparency order, aiming at better DPA-resistance
 
 New Sboxes:
